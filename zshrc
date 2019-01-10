@@ -99,8 +99,3 @@ unsetopt no_match
 fortune
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# chef stuff
-export OPSCODE_USER=mtanner
-eval "$(chef shell-init bash)"
-export CHEF_URL="192.168.8.50"
